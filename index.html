@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adeena | Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">Adeena</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+  <div class="hero-content" data-aos="fade-up">
+    <h1>Hi, I'm <span>Adeena</span></h1>
+    <h2 class="typing"></h2>
+    <p>A passionate Web Developer creating modern and user-friendly websites.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about">
+  <div class="about-container" data-aos="fade-right">
+    <img src="https://via.placeholder.com/400x400" alt="profile" class="about-img">
+    <div class="about-text">
+      <h2>About Me</h2>
+      <p>
+        I am a full-stack web developer with experience in PHP, Laravel, and modern frontend frameworks.
+        I love building unique and responsive websites that solve real-world problems.
+      </p>
+      <a href="about.html" class="btn">Read More</a>
+    </div>
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="projects" class="projects">
+  <h2 data-aos="fade-up">Projects</h2>
+  <div class="project-grid">
+    <div class="card" data-aos="zoom-in">
+      <i class="bi bi-music-note-beamed"></i>
+      <h3>Music Website</h3>
+      <p>A dynamic PHP-based music platform with playlists & search.</p>
+    </div>
+    <div class="card" data-aos="zoom-in">
+      <i class="bi bi-book"></i>
+      <h3>Library System</h3>
+      <p>Laravel-based library management with an advanced admin panel.</p>
+    </div>
+    <div class="card" data-aos="zoom-in">
+      <i class="bi bi-code-slash"></i>
+      <h3>Portfolio</h3>
+      <p>Responsive personal portfolio showcasing my skills & projects.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact">
+  <h2 data-aos="fade-up">Contact Me</h2>
+  <form class="contact-form" data-aos="fade-up">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" required></textarea>
+    <button type="submit" class="btn">Send Message</button>
+  </form>
+  <div class="socials" data-aos="fade-up">
+    <a href="#"><i class="bi bi-linkedin"></i></a>
+    <a href="#"><i class="bi bi-github"></i></a>
+    <a href="#"><i class="bi bi-envelope"></i></a>
+  </div>
+</section>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
